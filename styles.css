@@ -1,0 +1,33 @@
+body{
+    background-image: url("/hun.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+h1,h2{
+    color: rgb(7, 126, 253);
+    font-size: 3rem;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    
+}
+h3{
+    text-align: center;
+    padding-left: 10%;
+    color:blueviolet;
+}
+img{
+    width:200px ;
+    height:200px;
+}
+a{
+    padding-right: 10%;
+}
+.aromal{
+        color: red;
+}
+.get{
+    padding-left: 40%;
+    font-size: 2rem;
+
+}
