@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Bike Page</title>
+	<link rel="stylesheet" href="styles.css">
+	<style>
+		body {
+			background-color: #f0f0f0;
+			margin: 0;
+			padding: 0;
+		}
+		.container {
+			max-width: 800px;
+			margin: 0 auto;
+			padding: 20px;
+			text-align: center;
+			position: relative;
+		}
+		h1, h2 {
+			color: #1e6adc;
+			font-family: 'Arial', sans-serif;
+		}
+		h2 {
+			margin-top: 10px;
+			font-size: 2.5rem;
+		}
+		.logo {
+			width: 150px;
+			height: 150px;
+			margin: 20px auto;
+			display: block;
+		}
+		.nav-links {
+			margin-bottom: 20px;
+			text-align: center;
+		}
+		.nav-links a {
+			margin: 0 20px;
+			color: #eae3e3;
+			text-decoration: none;
+			font-weight: bold;
+			transition: color 0.3s ease;
+			position: relative;
+		}
+		.nav-links a:before {
+			content: "";
+			position: absolute;
+			bottom: -5px;
+			left: 0;
+			width: 0;
+			height: 2px;
+			background-color: #1e6adc;
+			transition: width 0.3s ease;
+		}
+		.nav-links a:hover {
+			color: #1e6adc;
+		}
+		.nav-links a:hover:before {
+			width: 100%;
+		}
+		.get-details {
+			display: inline-block;
+			padding: 10px 30px;
+			font-size: 1.2rem;
+			background-color: #1e6adc;
+			color: white;
+			border-radius: 5px;
+			text-decoration: none;
+			transition: background-color 0.3s ease;
+			position: absolute;
+			bottom: 2px;
+			left: 50%;
+			transform: translateX(-50%);
+		}
+		.get-details:hover {
+			background-color: #1558a3;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="nav-links">
+			<a href="https://www.google.com/search?q=hunter+350&tbm=isch">Bike Images</a>
+			<a href="https://www.google.com/search?q=hunter+350+accessories&tbm=isch">Accessories</a>
+		</div>
+		<img class="logo" src="https://www.royalenfield.com/content/dam/re-platform-images/digital-quickstart/hunter/explore/hotspot/res/img/loader_logo_img.png" alt="Your Logo">
+		<h1>Welcome to My Bike Page</h1>
+		<h2>Hunter 350</h2>
+		<a class="get-details" href="https://www.bikedekho.com/royal-enfield/hunter">Get Details</a>
+	</div>
+</body>
+</html>
